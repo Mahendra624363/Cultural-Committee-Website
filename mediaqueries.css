@@ -1,0 +1,178 @@
+
+/* Screen width up to 350px */
+@media screen and (max-width: 350px) {
+    body{
+        font-size: 0.9rem;
+    }
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .inevents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    #gallary{
+        font-size: 0.6rem;
+    }
+    #sico {
+        padding: 1rem; 
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 0.8rem;
+    }
+    #committee .details div{
+        font-size: 0.7rem;
+    }
+    .details a{
+        font-size: 0.6rem;
+    }
+    
+
+}
+
+/* Screen width from 350px to 450px */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .inevents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 1rem;
+    }
+
+
+}
+
+/* Screen width from 450px to 600px */
+@media screen and (min-width: 450px) and (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .inevents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .event-images {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 1rem;
+    }
+
+
+
+}
+
+/* Screen width from 600px to 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        font-size: 1.1rem;
+    }
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+
+    .inevents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .event-images {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 1.1rem;
+    }
+
+
+}
+
+/* Screen width from 900px and above */
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 1.3rem;
+    }
+    .top-header{
+        font-size: 1.3rem;
+    }
+
+    #sico img {
+        width: 10%;
+    }
+
+    .event-images {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    #sico .club {
+        display: flex;
+        gap: 20px;
+    }
+    #sico .club img{
+        width: 240px;
+    }
+    .club-img{
+        align-self: center;
+    }
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 1.3rem;
+    }
+
+
+}
+@media  screen and (min-width:1500px){
+    body {
+        font-size: 2.3rem;
+    }
+    .top-header{
+        font-size: 2.3rem;
+    }
+
+    .committee-members {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .inevents {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+        gap: 1.5rem;
+    }
+    .event-images {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    #sico .club img{
+        width: 300px;
+    }
+    #sico .objectives ul li,#home p,#home .page-info,
+    #sico .objective li,#sico .club .data,.upcoming-events ul li a,#home h2{
+        font-size: 2.5rem;
+    }
+
+    .button-div,.apply-btn{
+        font-size: 2.5rem;
+        width: 170px;
+        height: 50px;
+    }
+}

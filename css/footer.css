@@ -1,0 +1,92 @@
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+footer .icons a {
+    padding: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+footer .icons i {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bi-instagram {
+    background-color: white;
+    color: rgb(244, 3, 228);
+}
+
+.bi-facebook, .bi-linkedin {
+    background-color: blue;
+    color: white;
+}
+
+.bi-youtube {
+    background-color: white;
+    color: red;
+}
+
+.bi-twitter {
+    background-color: rgb(14, 133, 252);
+    color: white;
+}
+
+footer .icons a:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inlinks {
+    flex: 1;
+    padding: 10px;
+}
+
+.inlinks h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.inlinks ol {
+    list-style-type: none;
+}
+
+.inlinks ol li {
+    margin-bottom: 5px;
+}
+
+.rights {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer .links a {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.5s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

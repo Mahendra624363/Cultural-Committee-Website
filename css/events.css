@@ -1,0 +1,202 @@
+#events {
+    display:none;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.description h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #666;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.event:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.event-info {
+    flex: 1;
+    text-align: left;
+    transition: font-size 0.3s ease; 
+}
+
+.event h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.event p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+.event-image {
+    flex: 0 0 150px;
+    margin-left: 20px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.event:nth-child(odd) {
+    --event-color: #f0a500; 
+}
+
+.event:nth-child(even) {
+    --event-color: #8ac926; 
+}
+
+.event:nth-child(3n + 1) {
+    --event-color: #1982c4; 
+}
+
+.event:nth-child(3n + 2) {
+    --event-color: #6a4c93; 
+}
+
+.event:nth-child(3n + 3) {
+    --event-color: #e63946; 
+}
+
+.event:nth-child(4n + 1) {
+    --event-color: #ff6b6b; 
+}
+
+.event:nth-child(4n + 2) {
+    --event-color: #8a2be2; 
+}
+
+.event:nth-child(4n + 3) {
+    --event-color: #50c878; 
+}
+
+.event:nth-child(4n + 4) {
+    --event-color: #ff1493;
+}
+
+.event:nth-child(5n + 1) {
+    --event-color: #4682b4; 
+}
+
+.event:nth-child(5n + 2) {
+    --event-color: #cd5c5c; 
+}
+
+.event:nth-child(5n + 3) {
+    --event-color: #ffa07a; 
+}
+
+.event:nth-child(5n + 4) {
+    --event-color: #00bfff; 
+}
+
+.event:nth-child(5n + 5) {
+    --event-color: #da70d6;
+}
+
+.event:nth-child(6n + 1) {
+    --event-color: #468499;
+}
+
+.event:nth-child(6n + 2) {
+    --event-color: #808000;
+}
+
+.event:nth-child(6n + 3) {
+    --event-color: #20b2aa;
+}
+
+.event:nth-child(6n + 4) {
+    --event-color: #8b4513;
+}
+
+.inevents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.event::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background-color: var(--event-color);
+    z-index: 1;
+    transition: width 0.3s ease;
+}
+
+.event:hover::before {
+    width: 100%;
+}
+
+
+.event:hover .event-image {
+    z-index: 1;
+}
+
+.event:hover .event-info {
+    z-index: 1;
+}
+
+.event:hover h3,
+.event:hover p {
+    font-weight: 500;
+    color: white
+}
+
+.apply-btn {
+    font-weight: bolder;
+    margin-top: 7%;
+    width:100px;
+    bottom: 10px; 
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}

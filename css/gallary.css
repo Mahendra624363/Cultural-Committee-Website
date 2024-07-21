@@ -1,0 +1,68 @@
+.year-image {
+    display: grid;
+    grid-template-columns: 20% 79%;
+    margin: 0 auto;
+    gap: 1%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.year {
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color:#9eb475;
+    border-radius: 5px;
+}
+
+.year a {
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(116, 136, 238);
+    text-align: center;
+    transition: background-color 0.3s ease;
+    overflow-x:auto;
+}
+
+.year a:hover {
+    background-color: #ddd;
+}
+
+.image-container {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.year-name {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.event-images {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 10px;
+    justify-items: center;
+}
+
+.event-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

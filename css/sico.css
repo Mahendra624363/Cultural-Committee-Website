@@ -1,0 +1,110 @@
+#sico {
+    margin-bottom: 2rem;
+    background-color: #f2f2f2; 
+    padding: 1.5rem; 
+    border-radius: 12px; 
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1); 
+}
+
+#sico h2 {
+    font-size: 1.8rem; 
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgb(47, 47, 107);
+}
+.sico-image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:20px;
+}
+
+#sico .objectives li {
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#sico .club {
+    background-color: #ffffff; 
+    border: 1px solid #dddddd;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+#sico .club:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); 
+    transform: translateY(-5px); 
+}
+
+#sico .club h3 {
+    margin-top: 0;
+    color: #007bff; 
+    font-size: 1.4rem; 
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+#sico .club h3:hover,
+#sico .club:hover h3 {
+    border-color: #007bff; 
+    color: #0056b3;
+}
+
+#sico .club h4 {
+    font-size: 1.1rem; 
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#sico .club ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.club-img {
+    text-align: center;
+}
+
+.club-img img {
+    width: 60%; 
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem; 
+}
+
+#sico .club strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#sico .club .button {
+    background-color: rgb(18, 45, 165); 
+    cursor: pointer;
+    color: #f0f0f0;
+    width: 120px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-top: 1rem; 
+    padding: 0.5rem 1rem; 
+}
+
+#sico .club .button:hover {
+    background-color: #0056b3;
+}
+
+.button-div {
+    text-align: center;
+}

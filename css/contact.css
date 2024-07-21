@@ -1,0 +1,37 @@
+#contact {
+    display:none;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#convener-img {
+    max-width: 150px;
+    border-radius: 50%; 
+    box-shadow: 0 0 8px rgba(0,0,0,0.2); 
+}
+
+#contact-info {
+    flex: 1; 
+}
+
+.college-contact {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.college-contact h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.college-contact p {
+    color: #666;
+    margin-bottom: 5px;
+}
